@@ -1,0 +1,30 @@
+#logoImage {
+  height: 100px;
+  width: 400px;
+}
+
+#navbarItems {
+  font-size: 18px;
+}
+
+.nav-link {
+  transition: all 0.2s ease-in-out;
+}
+
+@media only screen and (max-width: 769px) {
+  #logoImage {
+    width: 300px;
+    height: 80px;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  #logoImage {
+    width: 200px;
+    height: 60px;
+  }
+
+  #navbarItems {
+    font-size: 12px;
+  }
+}
